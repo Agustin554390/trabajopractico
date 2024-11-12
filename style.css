@@ -1,0 +1,91 @@
+#contenedor {
+    width: 900px;
+    height: auto;
+    margin: auto;
+}
+
+#encabezado {
+    height: auto;
+    background: url("header-image.jpg") no-repeat center;
+}
+
+#caja1 {
+    margin: auto;
+    width: 900; /* Ancho incrementado para más espacio */
+    height: 1100px; /* Auto para que se ajuste dinámicamente */
+    float: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#caja2 {
+    <!--caja amarilla-->
+    margin: auto;
+    width: 350px;
+    height: 525px;
+    float: left;
+    background-color: #FFEB3B;
+    padding: 20px;
+    box-shadow: 74px 43px 400px 24px rgba(0,0,0,1);
+    -webkit-box-shadow: 74px 43px 400px 24px rgba(0,0,0,1);
+    -moz-box-shadow: 74px 43px 400px 24px rgba(0,0,0,1);
+}
+
+#botonera {
+    height: 40px;
+    width: 950px;
+    background-color: #74ACDF;
+}
+
+#botonera ul {
+    margin: auto;
+    width: 350px;
+}
+
+#botonera ul li {
+    list-style-type: none;
+    width: 97px;
+    line-height: 39px;
+    text-align: center;
+    display: inline;
+    float: left;
+}
+
+#pie {
+    margin: auto;
+    width: 949px;
+    height: 39px;
+    background-color: #74ACDF;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#centro {
+    margin: auto;
+    width: 949px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+body {
+	background: #26a395;
+	background: linear-gradient(241deg,#26a395 0%, #ff14de 80%);
+	background: -webkit-linear-gradient(241deg,#26a395 0%, #ff14de 80%);
+	background: -moz-linear-gradient(241deg,#26a395 0%, #ff14de 80%);
+	cursor: wait;
+}
+
+h1 {
+    color: orange;
+    text-shadow: 4px 4px 2px rgba(255,0,0,0.6);
+    text-align:center;	
+}
+.centrado 	{
+	text-align:center;
+               width: 600|px;
+               height: auto;
+}
